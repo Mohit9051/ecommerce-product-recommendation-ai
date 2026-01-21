@@ -4,7 +4,7 @@ from flask import Flask, flash, request, redirect, url_for, render_template
 from flask_cors import CORS
 from werkzeug.utils import secure_filename
 
-UPLOAD_FOLDER = '/Users/ritika/Desktop/SIN/'
+UPLOAD_FOLDER = '/Users/Mohit/Desktop/SIN/'
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 
 app = Flask(__name__)
